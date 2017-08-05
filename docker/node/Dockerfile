@@ -135,9 +135,9 @@ COPY frameworks/javascript/chai-display.js /runner/node_modules/chai-display/ind
 COPY frameworks/javascript/display.js /runner/node_modules/chai-display/display.js
 
 # Add entire typings/ for now for backward compatibility
-COPY typings /runner/typings
+COPY docker/node/typescript/typings /runner/typings
 # add typings into a cleaner path for inclusion
-COPY typings/main/ambient /runner/typings
+COPY docker/node/typescript/typings/main/ambient /runner/typings
 
 USER codewarrior
 ENV USER=codewarrior HOME=/home/codewarrior

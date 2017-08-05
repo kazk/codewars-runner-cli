@@ -18,4 +18,4 @@
 !lib/runners/typescript.js
 !test/runners/typescript_spec.js
 !examples/typescript.yml
-!typings
+!docker/node/typescript/typings
