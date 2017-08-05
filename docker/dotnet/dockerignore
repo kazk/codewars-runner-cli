@@ -1,0 +1,17 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/csharp
+!lib/runners/csharp.js
+!test/runners/csharp_spec.js
+!examples/csharp.yml
+
+!frameworks/fsharp
+!lib/runners/fsharp.js
+!test/runners/fsharp_spec.js
+!examples/fsharp.yml

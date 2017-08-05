@@ -1,0 +1,12 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/powershell
+!lib/runners/powershell.js
+!test/runners/powershell_spec.js
+!examples/powershell.yml

@@ -19,6 +19,8 @@ target/*
 .lein-repl-history
 example.rb
 Dockerfile
+!docker/*/Dockerfile
+.dockerignore
 *.o
 *.hi
 \#*

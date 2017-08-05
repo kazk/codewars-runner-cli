@@ -1,0 +1,11 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!lib/runners/dart.js
+!test/runners/dart_spec.js
+!examples/dart.yml

@@ -1,0 +1,12 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/elixir
+!lib/runners/elixir.js
+!test/runners/elixir_spec.js
+!examples/elixir.yml

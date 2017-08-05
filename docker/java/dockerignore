@@ -1,0 +1,15 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/java/build.gradle
+!frameworks/java/prewarm.sh
+!frameworks/java/src
+
+!lib/runners/java.js
+!test/runners/java_spec.js
+!examples/java.yml
