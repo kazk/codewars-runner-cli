@@ -140,7 +140,7 @@ USER codewarrior
 # Sample Database
 # http://www.postgresqltutorial.com/postgresql-sample-database/#
 
-ADD sample_data /runner/sample_data
+ADD docker/ruby/sql/sample_data /runner/sample_data
 RUN /usr/lib/postgresql/9.6/bin/pg_ctl -w start \
     && createdb -U codewarrior spec \
     && createdb -U codewarrior dvdrental \

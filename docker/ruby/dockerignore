@@ -17,4 +17,4 @@
 !lib/runners/sql.js
 !test/runners/sql_spec.js
 !examples/sql.yml
-!sample_data
+!docker/ruby/sql/sample_data
