@@ -1,24 +1,20 @@
 HOSTNAME=codewars
+images := $(notdir $(wildcard docker/*))
 
-CONTAINERS=node dotnet jvm java python ruby alt rust julia systems dart crystal ocaml swift haskell objc go lua esolangs chapel nim r erlang elixir powershell gradle
+.PHONY: all clean deep-clean docker_rm docker_rmi push pull
 
-ALL_CONTAINERS=${CONTAINERS} base
+all: $(images)
 
-.PHONY: ${ALL_CONTAINERS} clean docker_rm docker_rmi
+list-targets:
+	## targets
+	@for x in $(images); do echo $$x; done
+.PHONY: list-targets
 
-all: ${CONTAINERS}
-
-recent: ${RECENT_CONTAINERS}
-
-base:
+$(images):
 	cp docker/$@/Dockerfile ./Dockerfile
 	cp docker/$@/dockerignore ./.dockerignore
 	docker build -t $(HOSTNAME)/$@-runner .
-
-${CONTAINERS}:
-	cp docker/$@/Dockerfile ./Dockerfile
-	cp docker/$@/dockerignore ./.dockerignore
-	docker build -t $(HOSTNAME)/$@-runner .
+.PHONY: $(images)
 
 # Kill all of the in-flight and exited docker containers
 docker_rm:
