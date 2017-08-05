@@ -6,7 +6,7 @@
 !lib/utils
 !test/runner.js
 
-!jvm-runner
+!docker/jvm/jvm-runner
 
 !lib/runners/clojure.js
 !test/runners/clojure_spec.js

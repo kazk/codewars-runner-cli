@@ -30,7 +30,7 @@ COPY package.json package.json
 RUN npm install --production
 
 # Build the jvm-runner
-COPY jvm-runner jvm-runner
+COPY docker/jvm/jvm-runner jvm-runner
 RUN cd /runner/jvm-runner \
  && LEIN_ROOT=true lein do clean, test, uberjar
 
