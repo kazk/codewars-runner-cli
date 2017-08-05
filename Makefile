@@ -11,11 +11,11 @@ all: ${CONTAINERS}
 recent: ${RECENT_CONTAINERS}
 
 base:
-	cp docker/$@.docker ./Dockerfile
+	cp docker/$@/Dockerfile ./Dockerfile
 	docker build -t $(HOSTNAME)/$@-runner .
 
 ${CONTAINERS}:
-	cp docker/$@.docker ./Dockerfile
+	cp docker/$@/Dockerfile ./Dockerfile
 	docker build -t $(HOSTNAME)/$@-runner .
 
 # Kill all of the in-flight and exited docker containers
