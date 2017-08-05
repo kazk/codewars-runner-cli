@@ -1,0 +1,11 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!lib/runners/ocaml.js
+!test/runners/ocaml_spec.js
+!examples/ocaml.yml

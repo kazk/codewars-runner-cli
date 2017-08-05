@@ -1,0 +1,12 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/rust
+!lib/runners/rust.js
+!test/runners/rust_spec.js
+!examples/rust.yml

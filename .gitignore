@@ -20,6 +20,7 @@ target/*
 example.rb
 Dockerfile
 !docker/*/Dockerfile
+.dockerignore
 *.o
 *.hi
 \#*

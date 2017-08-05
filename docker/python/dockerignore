@@ -1,0 +1,17 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/python
+!lib/runners/python.js
+!test/runners/python_spec.js
+!examples/python.yml
+
+!frameworks/python3
+!lib/runners/python3.js
+!test/runners/python3_spec.js
+!examples/python3.yml

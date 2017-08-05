@@ -1,0 +1,15 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/bf
+!frameworks/javascript/cw-2.js
+!frameworks/javascript/display.js
+!frameworks/javascript/chai-display.js
+!lib/runners/bf.js
+!test/runners/bf_spec.js
+!examples/bf.yml

@@ -1,0 +1,12 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/objc
+!lib/runners/objc.js
+!test/runners/objc_spec.js
+!examples/objc.yml

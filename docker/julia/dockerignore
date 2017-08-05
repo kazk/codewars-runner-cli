@@ -1,0 +1,12 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/julia
+!lib/runners/julia.js
+!test/runners/julia_spec.js
+!examples/julia.yml

@@ -1,0 +1,15 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/php
+!lib/runners/php.js
+!test/runners/php_spec.js
+!examples/php.yml
+
+!lib/runners/r.js
+!test/runners/r_spec.js

@@ -1,0 +1,17 @@
+**
+!package.json
+!*.js
+!lib/*.js
+!lib/*.sh
+!lib/utils
+!test/runner.js
+
+!frameworks/c
+!lib/runners/c.js
+!test/runners/c_spec.js
+!examples/c.yml
+
+!frameworks/cpp
+!lib/runners/cpp.js
+!test/runners/cpp_spec.js
+!examples/cpp.yml
